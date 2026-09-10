@@ -1,46 +1,56 @@
 /*FestivalGo 2026*/
-
-/* Estilos */ 
-
 #inicio {
     background-color: blue;
     padding: 50px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-    padding: 0;
 }
 
 /* 2. Selector de Clase*/
 .inicio-texto {
     background-color: green; 
     padding: 30px;
+    text-align: center; 
 }
 .etiqueta {
-    color: blue; 
-    font-size: 20px;
+    color: white; 
+    font-size: 40px;
 }
+
+.inicio-imagen { flex: 1; } .inicio-imagen img { width: 100%; height: 340px; object-fit: cover; border-radius: 14px; }
+
+.boton { 
+  display: inline-block; 
+  background-color: #ff4d6d; 
+  color: #ffffff; 
+  font-weight: 600; 
+  text-decoration: none; 
+  padding: 14px 34px; 
+  border-radius: 30px;
+}
+
+.boton:hover { 
+  background-color: #e63e5c; 
+} 
+
+.boton:active { 
+  transform: scale(0.97); 
+}
+
 /* 3. Selector de Etiqueta*/
-h1 {
+#frase{
     font-size: 45px; 
-    color: Yellow; 
+    color: aqua; 
 }
 p {
-    color: aliceblue;
-    background-color: yellow;
+    color: black;
+    background-color: aquamarine;
     padding: 15px;
 }
 
-img {
+.cardexp-card img{
     width: 300px; 
     border: 5px solid red; 
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -73,8 +83,19 @@ footer {
       text-decoration: underline;
     }
 
+.imagFoot{
+  width: 50px;
+  width: 50px;
+}
+
 /*ARTISTAS*/
 /* Clase de los artistas */
+
+#titulo{
+    color: black;
+    text-align: center; 
+}
+
 .artista {
   width: 700px;
   background-color: cornflowerblue;
@@ -102,8 +123,7 @@ footer {
   border-radius: 10px;
 }
 
-
-/*Boletos*/
+/*BOLETOS*/
 .contenedor-boletos {
     max-width: 380px; 
      margin: 40px auto; 
@@ -112,7 +132,6 @@ footer {
      border: 2px solid black;
      font-family: Arial, Helvetica, sans-serif;
 }
-
 button {
     background-color: rgb(35, 35, 121);
     color: aliceblue;
@@ -123,21 +142,24 @@ button {
     font-weight: bold;         
     transition: all 0.3s ease;
 }
-
 button:hover {
-
     background-color: rgb(50, 50, 160);
     transform: scale(1.05);            
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
-
 button:active {
     transform: scale(0.98);  
 }
-
 .divisor-boletos {
   border: none;               
   height: 2px;                
   background-color: #4b71a0;  
   margin: 40px 0;            
+}
+
+.titulo-boletos { 
+  text-align: center; 
+  font-family: Arial, Helvetica, sans-serif; 
+  margin-top: 30px; 
+  margin-bottom: 20px; 
 }
