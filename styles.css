@@ -115,28 +115,42 @@ footer {
 
 
 /* Estilos para botón */ 
+.contenedor-boletos {
+    max-width: 380px; 
+     margin: 40px auto; 
+     padding: 0 16px;
+     text-align: center;
+     border: 2px solid black;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
 button {
-    display: inline-block;
-    text-decoration: none;
-    text-align: center;
     background-color: rgb(35, 35, 121);
     color: aliceblue;
-    border-radius: 10px;
-    cursor: pointer;
+    padding: 10px 35px; 
+    border-radius: 50px;
+    border: 2px solid #000000;
+    cursor: pointer;         
+    font-weight: bold;         
     transition: all 0.3s ease;
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 button:hover {
-    background-color: var(--primary-hover);
-    box-shadow: 0 6px 20px rgba(229, 9, 20, 0.6);
-    transform: translateY(-3px);
+
+    background-color: rgb(50, 50, 160);
+    transform: scale(1.05);            
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 button:active {
-    transform: scale(0.95);
-    box-shadow: 0 2px 10px rgba(229, 9, 20, 0.4);
+    transform: scale(0.98);  
+}
+
+.divisor-boletos {
+  border: none;               
+  height: 2px;                
+  background-color: #4b71a0;  
+  margin: 40px 0;            
 }
 
 .divisor-boletos {
