@@ -60,6 +60,36 @@ footer {
       text-decoration: underline;
     }
 
+/*ARTISTAS*/
+/* Clase de los artistas */
+.artista {
+  width: 700px;
+  background-color: cornflowerblue;
+  border: 5px solid black;
+  padding: 30px;
+  margin: 0 auto 20px;
+  border-radius: 10px;
+}
+
+/* Caja de la foto */
+.foto {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* Imagen */
+.foto img {
+  display: block;
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+
 /*Boletos*/
 .contenedor-boletos {
     max-width: 380px; 
