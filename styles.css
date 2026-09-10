@@ -113,17 +113,6 @@ footer {
      font-family: Arial, Helvetica, sans-serif;
 }
 
-
-/* Estilos para botón */ 
-.contenedor-boletos {
-    max-width: 380px; 
-     margin: 40px auto; 
-     padding: 0 16px;
-     text-align: center;
-     border: 2px solid black;
-     font-family: Arial, Helvetica, sans-serif;
-}
-
 button {
     background-color: rgb(35, 35, 121);
     color: aliceblue;
@@ -144,13 +133,6 @@ button:hover {
 
 button:active {
     transform: scale(0.98);  
-}
-
-.divisor-boletos {
-  border: none;               
-  height: 2px;                
-  background-color: #4b71a0;  
-  margin: 40px 0;            
 }
 
 .divisor-boletos {
