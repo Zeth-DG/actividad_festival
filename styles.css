@@ -97,4 +97,18 @@ footer {
      padding: 0 16px;
      text-align: center;
      border: 2px solid black;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background-color: rgb(35, 35, 121);
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.divisor-boletos {
+  border: none;               
+  height: 2px;                
+  background-color: #4b71a0;  
+  margin: 40px 0;            
 }
