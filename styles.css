@@ -114,9 +114,16 @@ footer {
 }
 
 button {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
     background-color: rgb(35, 35, 121);
     color: aliceblue;
     border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .divisor-boletos {
