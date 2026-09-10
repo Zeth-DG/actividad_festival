@@ -1,2 +1,2 @@
 ## LABORATORIO GRUPAL — FESTIVAL
-# usando HTML & CSS
+Usando HTML & CSS
