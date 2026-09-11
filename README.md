@@ -30,4 +30,4 @@ Para el componente de las tarjetas (Artistas, Experiencias y Boletos), implement
 - `:active` en botones: Se achican sutilmente (`scale`) cuando el usuario hace clic.
 
 > **Equipo de Desarrollo:**  
-> Gonzalo, Karen, Luis, Vanya, Alma.  
+> Gonzalo, Karen, Luis, Vanya, Alma, Lizeth.  
